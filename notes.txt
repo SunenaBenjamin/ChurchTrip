@@ -1,1 +1,5 @@
 Try to center the images and size them the same.
+
+To center images wrap them in another tag and align that tab to be center and try 
+
+height and width within the img tag...
