@@ -1,0 +1,128 @@
+
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+
+body { margin: 0; padding: 0; background-color: rgba(72, 3, 3, 1); color: #ffffff; }
+
+/* NAVIGATION */
+
+
+nav {
+	min-width: : 400px;
+    float: inherit;
+
+
+
+    padding-top: 5px;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+
+#timer {
+	font-size: 16px;
+	font-family: 'Teko', sans-serif;
+	width: 500px;
+	margin: 26px auto;
+	border: 1px solid rgba(255,255,255,.2);
+	background: url("../images/cabin.jpg") no-repeat;
+/* 	background-image: url("../images/cabin.jpg"); */
+	min-height: 570px;
+}
+
+#timer .heading {
+	background-color: rgba(0,0,0,.5);
+	padding: 20px 0px 2px 0px;
+	margin: 0px 0px 30px 0px;
+}
+
+#timer h1 {
+	font-size: 4.2em;
+	color: #c02c2c;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 70px;
+	margin: 0px 0px 0px -5px;
+	padding: 0px;
+	text-align: center;
+}
+
+#timer h2 {
+	font-size: 1.5em;
+	color: #6fb5f8;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 18px;
+	margin: 0px;
+	padding: 10px 10px 13px 10px;
+	text-align: center;
+	letter-spacing: 9px;
+}
+
+#timer .my-countdown .countdown-row {
+	display: block;
+	text-align: center;
+}
+
+#timer .my-countdown .countdown-section {
+	display: inline-block;
+	width: 95px;
+}
+
+#timer .my-countdown .countdown-amount {
+	display: block;
+	color: #ffffff;
+	font-size: 5.6em;
+	line-height: 55px;
+}
+
+#timer .my-countdown .countdown-period {
+	display: block;
+	color: #6fb5f8;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 525px) {
+	
+	#timer {
+		font-size: 12px;
+		width: 300px;
+		min-height: 465px;
+		background-size: 400px auto;
+	}
+	
+	#timer .heading {
+		padding: 12px 0px 8px 0px;
+		margin-bottom: 20px;
+	}
+	
+	#timer h1 {
+		line-height: 40px;
+		font-size: 3.7em;
+	}
+	
+	#timer h2 {
+		line-height: 22px;
+		letter-spacing: 5px;
+	}
+	
+	#timer .my-countdown .countdown-section {
+		width: 68px;
+		
+	}
+	
+}
+
+
+
